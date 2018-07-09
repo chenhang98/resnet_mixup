@@ -4,11 +4,11 @@
 
 ### compare
 
-I have trained the following four models and record the best accuracies on validation set, which are shown below:
+I have trained the following four models and record the best accuracies on validation set, which are shown below (with batchsize 128):
 
 | Layers | without mixup | with mixup |
 | :----: | :-----------: | :--------: |
-|   32   |    92.09%     |   93.06%   |
+|   32   |    93.08%     |   93.33%   |
 |  110   |    94.48%     |   94.75%   |
 
 The loss and error on train/validation set are shown in the figures (Logarithmic coordinates):
